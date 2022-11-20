@@ -1,0 +1,98 @@
+.who-iam{
+    height: 100vh;
+    color: white;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    .who-info{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .desc {
+
+            span {
+                color: magenta;
+
+            }
+
+            p{
+                font-size: 25px;
+                margin: 25px 0;
+            }
+        }
+    }
+   
+    .education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    
+    .cet-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .cert{
+            
+        span {
+            font-size: 20px;
+        }
+        .name-icon{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+
+            h1 {
+                color: magenta;
+            }
+        } 
+        .icon {
+            font-size: 25px;
+            color: magenta;
+        }
+    }
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+}
+
+
+@media screen and (max-width : 968px) {
+
+    .who-iam{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+    .who-info{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+    .education {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        margin: 40px 0;
+    }
+}

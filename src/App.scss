@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Poppins:wght@300;400;600&family=Source+Sans+Pro:ital@1&family=Work+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(270deg, rgb(27, 20, 41), rgb(20, 15, 35));
+    font-family: 'Poppins', sans-serif;
+    
+    img {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .master-container {
+        max-width: 750px;
+    }
+}
+
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}

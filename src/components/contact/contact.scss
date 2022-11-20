@@ -1,0 +1,62 @@
+.contact {
+    height: 40vh;
+    width: 100vw;
+    background-color: #212038d8!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+    @media screen and (max-width : 630px) {
+        h1 {
+            font-size: 18px;
+        }
+    }
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+
+    a {
+        color: magenta;
+        cursor: pointer;
+        font-size: 35px;
+    }
+    
+    @media screen and (max-width : 630px) {
+        h1 {
+            font-size: 15px;
+        }
+    
+        a {
+            font-size: 20px;
+        }
+    
+    }
+}
+
+p{
+    font-size: 25px;
+}
+    @media screen and (max-width : 630px) {
+        
+        p {
+            font-size: 14px;
+        }
+
+    }
+    span {
+        font-weight: bold;
+        color: magenta;
+    }
+}
+@media screen and (max-width : 630px) {
+    
+    .contact{
+        height: 30vh;
+    }
+
+}

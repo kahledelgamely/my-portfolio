@@ -1,0 +1,31 @@
+.resume {
+    height: auto;
+    display: flex;
+    padding: 100px 0 0 0;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    .cv {
+        
+        a {
+            padding: 3px;
+            background-color: rgb(71, 71, 227);
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            border-radius: 5px;
+            
+        }
+    }
+.image {
+    max-width: 50vw;
+    height: 100%;
+
+}
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
+

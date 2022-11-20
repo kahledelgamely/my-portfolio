@@ -1,0 +1,47 @@
+.mainPage{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+.main-info{
+        h1{
+         span {
+        color: magenta;
+        font-size: 35px;
+        }
+    }
+    }
+    @media screen and (max-width : 768px) {
+        h1 {
+            
+            font-size: 20px;
+        }
+        .main-info{
+            h1{
+             span {
+            color: magenta;
+            font-size: 20px;
+            }
+        }
+        }
+        
+    }
+    .image {
+        max-width: 400px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding-top: 60px;
+    }
+}
