@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85ca03cc.css",
+    "main.js": "/static/js/main.67f11112.js",
+    "static/media/2022-07-12.png": "/static/media/2022-07-12.b6ec18642f49998def6c.png",
+    "static/media/2022-07-07.png": "/static/media/2022-07-07.70cadaa8d106bbd7ebd4.png",
+    "static/media/2022-07-07 (1).png": "/static/media/2022-07-07 (1).c12a9e3fb19e276996b9.png",
+    "static/media/2022-07-12 (1).png": "/static/media/2022-07-12 (1).a730fb5e81c246415704.png",
+    "static/media/new resume.png": "/static/media/new resume.111a08849f9066186fbe.png",
+    "static/media/concept-based-photo-illustration-of-graduation.png": "/static/media/concept-based-photo-illustration-of-graduation.36e29f1649f3b6e94f71.png",
+    "static/media/png": "/static/media/785a1b9c359640da6bc9cfe3670b42ba.c0846bb73936e0dcbec2.png",
+    "static/media/2022-07-07 (2).png": "/static/media/2022-07-07 (2).0401fa09ce0cae4a0a77.png",
+    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar-2092113_960_720.png": "/static/media/avatar-2092113_960_720.a5a2129db98fb0814fd4.png",
+    "index.html": "/index.html",
+    "main.85ca03cc.css.map": "/static/css/main.85ca03cc.css.map",
+    "main.67f11112.js.map": "/static/js/main.67f11112.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ca03cc.css",
+    "static/js/main.67f11112.js"
+  ]
+}
